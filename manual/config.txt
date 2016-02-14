@@ -7,8 +7,8 @@
 
 # uncomment the following to adjust overscan. Use positive numbers if console
 # goes off screen, and negative if there is too much border
-overscan_left=16
-overscan_right=32
+#overscan_left=16
+#overscan_right=32
 #overscan_top=16
 #overscan_bottom=16
 
