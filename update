@@ -6,7 +6,36 @@ then
   git pull
   # now that update script is latest, run update actions
   ./update 1
+
 else
   # put any post-pull update actions here
+  pushd ../pyenergenie
+  git pull
+  popd
+
+  pushd ../school_mc_demo
+  git pull
+  popd
+
+  pushd ../mc_bigbang
+  git pull
+  popd
+
+  pushd ../pibakeoff
+  git pull
+  popd
+
+  pushd ../guessinggame
+  git pull
+  popd
+
+  pushd ../pyws
+  git pull
+  popd
+
+  pushd ../pyparsers
+  git pull
+  popd
+
   echo Update completed      
 fi
