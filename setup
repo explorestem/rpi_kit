@@ -2,6 +2,7 @@
 
 sudo cp config/cmdline.txt /boot
 sudo cp config/config.txt /boot
+sudo cp config/dhcpcd.conf /etc
 pushd ~
 git clone https://github.com/whaleygeek/pyenergenie
 git clone https://github.com/whaleygeek/school_mc_demo
