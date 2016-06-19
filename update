@@ -9,28 +9,56 @@ then
 
 else
   # put any post-pull update actions here
+  pushd ..
+  git clone https://github.com/whaleygeek/pyenergenie
+  popd
+
   pushd ../pyenergenie
   git pull
+  popd
+
+  pushd ..
+  git clone https://github.com/whaleygeek/school_mc_demo
   popd
 
   pushd ../school_mc_demo
   git pull
   popd
 
+  pushd ..
+  git clone https://github.com/whaleygeek/mc_bigbang
+  popd
+
   pushd ../mc_bigbang
   git pull
+  popd
+
+  pushd ..
+  git clone https://github.com/whaleygeek/pibakeoff
   popd
 
   pushd ../pibakeoff
   git pull
   popd
 
+  pushd ..
+  git clone https://github.com/whaleygeek/guessinggame
+  popd
+
   pushd ../guessinggame
   git pull
   popd
 
+  pushd ..
+  git clone https://github.com/whaleygeek/pyws
+  popd
+
   pushd ../pyws
   git pull
+  popd
+
+  pushd ..
+  git clone https://github.com/whaleygeek/pyparsers
   popd
 
   pushd ../pyparsers
