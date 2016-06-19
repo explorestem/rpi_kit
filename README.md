@@ -37,6 +37,30 @@ So, the one we currently have installed on all cards is this one:
 
 http://downloads.raspberrypi.org/raspbian/images/raspbian-2016-02-09/
 
+Once you have downloaded that, follow the setup guide on the downloads page
+to install it. Then boot the Pi connected to the internet.
+
+Open an LXTerminal window and type:
+
+git clone https://github.com/ExploreSTEM/rpi_kit
+
+When it has downloaded...
+
+```
+cd rpi_kit
+./update
+sudo cp config/cmdline.txt /boot/cmdline.txt
+sudo cp config/config.txt /boot/config.txt
+sudo reboot
+```
+
+Then go into MENU/PREFERENCES/RASPBERRY PI CONFIG
+
+Press EXPAND FILE SYSTEM
+Follow the messages to reboot.
+
+When you have finished, shut down the pi with the shutdown button.
+
 ExploreSTEM
 June 2016
 
