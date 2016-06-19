@@ -25,6 +25,18 @@ currently loaded with this image from the Raspberry Pi Foundation:
 
 2016-02-09-raspbian-jessie.img
 
+You can get downloads and install instructions from here:
+
+https://www.raspberrypi.org/downloads/raspbian/
+
+Archived versions of the raspian images are here:
+
+http://downloads.raspberrypi.org/raspbian/images/
+
+So, the one we currently have installed on all cards is this one:
+
+http://downloads.raspberrypi.org/raspbian/images/raspbian-2016-02-09/
+
 ExploreSTEM
 June 2016
 
