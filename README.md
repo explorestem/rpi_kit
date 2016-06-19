@@ -20,7 +20,12 @@ cd rpi_kit
 This will download any updates to the resource packs, which
 includes PDFs of workbooks, code, and all other required files.
 
+If you need to completely reconstruct the card, please note all cards are
+currently loaded with this image from the Raspberry Pi Foundation:
+
+2016-02-09-raspbian-jessie.img
+
 ExploreSTEM
-June 2015
+June 2016
 
 
